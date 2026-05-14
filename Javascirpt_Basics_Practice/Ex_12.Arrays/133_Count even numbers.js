@@ -1,4 +1,4 @@
-// Count even no nos
+// Count even nos
 let arr = [10, 15, 22, 6, 8, 13];
 let count = 0;
 
