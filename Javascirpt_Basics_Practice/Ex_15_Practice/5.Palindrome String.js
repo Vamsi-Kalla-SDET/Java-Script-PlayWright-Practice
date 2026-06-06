@@ -1,4 +1,7 @@
+
+// --------------------------------------------
 // Method 1: Using a Loop
+// --------------------------------------------
 
 let str = "madam";
 
@@ -14,7 +17,9 @@ if (str === reversed) {
     console.log("Not Palindrome");
 }
 
+// --------------------------------------------
 // Method 2: Using Two Pointers (Interview Favorite)
+// --------------------------------------------
 
 let str = "madam";
 let isPalindrome = true;
@@ -28,8 +33,9 @@ for (let i = 0; i < str.length / 2; i++) {
 
 console.log(isPalindrome ? "Palindrome" : "Not Palindrome");
 
-
+// --------------------------------------------
 // Function version
+// --------------------------------------------
 function isPalindrome(str) {
     let reversed = "";
 

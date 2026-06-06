@@ -1,6 +1,8 @@
 // A Palindrome Number is a number that reads the same forward and backward.
 
+// --------------------------------------------
 // Method 1: Using a Loop
+// --------------------------------------------
 let num = 150;
 let originalNum = num;
 let reversed = 0;
@@ -19,6 +21,7 @@ if (originalNum === reversed) {
 
 // --------------------------------------------
 // Method 2: Using String (Shorter)
+// --------------------------------------------
 
 let num = 121;
 
@@ -29,9 +32,9 @@ if (num.toString() === reversed) {
 } else {
     console.log("Not Palindrome");
 }
-
+// --------------------------------------------
 // Method - 3 using function
-
+// --------------------------------------------
 function isPalindrome(num) {
     let originalNum = num;
     let reversed = 0;
