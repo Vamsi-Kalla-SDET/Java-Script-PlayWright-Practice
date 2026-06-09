@@ -9,7 +9,7 @@ Topics Covered:
 6. Functions
 7. Arrays
 8. Objects
-9. Scope
+9. Strings
 10. Interview Programs
 
 Goal:
