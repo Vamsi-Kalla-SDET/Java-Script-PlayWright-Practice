@@ -30,3 +30,14 @@ const largest = (a = 0, b = 0) => {
 console.log(largest());
 console.log(largest(10));
 console.log(largest(10, 20));
+
+// Calculate Discount
+
+const calculatePrice = (price, discount = 10) => {
+    return price - (price * discount / 100);
+};
+
+console.log(calculatePrice(1000));
+console.log(calculatePrice(1000, 20));
+
+
