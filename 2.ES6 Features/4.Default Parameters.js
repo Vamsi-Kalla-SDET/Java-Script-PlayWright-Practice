@@ -40,4 +40,15 @@ const calculatePrice = (price, discount = 10) => {
 console.log(calculatePrice(1000));
 console.log(calculatePrice(1000, 20));
 
+// CRTE
 
+const createUser = (
+    name = "Unknown",
+    role = "User"
+) => {
+    console.log(name + " - " + role);
+};
+
+createUser();
+createUser("John");
+createUser("John", "Admin");
