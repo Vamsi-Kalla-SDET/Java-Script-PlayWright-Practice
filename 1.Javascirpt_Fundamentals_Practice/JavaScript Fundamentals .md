@@ -1,4 +1,4 @@
-    # JavaScript Fundamentals Practice
+    # Core JavaScript Fundamentals
 
 Topics Covered:
 1. Variables (var, let, const)
