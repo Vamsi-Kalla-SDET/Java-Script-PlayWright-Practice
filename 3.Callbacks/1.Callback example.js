@@ -1,3 +1,5 @@
+// -------------------------------------------Example 1
+
 // Function Definition
 
 function greet(name) {
@@ -11,6 +13,7 @@ function processUser(callback) {
 }
 processUser(greet);
 
+// -------------------------------------------
 // Callback example 2:
 
 // The Callback Function
@@ -27,4 +30,20 @@ function processUser(username, callback) {
 
 // Passing sayHello as an argument to processUser
 processUser("Alice", sayHello);
+
+
+// -------------------------------------------
+// Example 3
+
+function myFunc(val){
+    console.log(val(), 'Practiced Programs Yesterday');
+}
+function callBack(){
+    console.log('I am callback function message');
+    return 'Vamsi';
+}
+myFunc(callBack);
+
+
+
 
