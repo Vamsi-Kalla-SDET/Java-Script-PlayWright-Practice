@@ -13,3 +13,10 @@ function hi(n) {
   console.log("Hi Sachin, How are you da");
   hi(n - 1); // reduce and call again
 }
+
+// 
+function myFunc(val){
+    console.log(val, 'Practiced Programs Yesterday');
+}
+myFunc('Vamsi');
+

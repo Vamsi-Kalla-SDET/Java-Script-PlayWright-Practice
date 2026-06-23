@@ -57,3 +57,21 @@ let b = 20;
 console.log(a);
 console.log(b);
 
+// 
+// swap two numbers usin array destrucutring.
+let a = 10;
+let b = 35;
+[a,b] = [b,a];
+console.log(a);
+console.log(b);
+
+// using temp
+let x = 0;
+let y = 2;
+let temp = x;
+x = y;
+y = temp;
+console.log(x);
+console.log(y);
+
+console.log(object);
