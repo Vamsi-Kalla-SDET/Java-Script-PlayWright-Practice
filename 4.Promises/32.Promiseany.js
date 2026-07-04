@@ -13,4 +13,6 @@ Promise.any([p1, p2, p3]).then(function (result) {
   console.log(result);
 });
 
+// Rejected Promises are ignored.
+
 
