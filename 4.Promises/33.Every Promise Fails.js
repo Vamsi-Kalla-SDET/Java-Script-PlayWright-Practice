@@ -7,3 +7,4 @@ Promise.any([p1, p2]).catch(function (error) {
 });
 
 //AggregateError - An AggregateError contains all rejection reasons because none of the Promises succeeded.
+
