@@ -4,7 +4,8 @@ function greet(name = "Guest") {
 
 greet();
 
-// Default parameters allow you to assign a value to a function parameter if no argument is passed.
+// Default parameters allow you to assign a value to a function parameter if no 
+// argument is passed.
 
 // Multiply Two Numbers
 const multiply = (a = 1, b = 1) => a * b;

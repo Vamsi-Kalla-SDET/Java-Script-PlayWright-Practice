@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <body>
+    <input type="text" id="name" />
+
+    <button onclick="displayName()">Submit</button>
+
+    <p id="result"></p>
+
+    <script>
+      function displayName() {
+        // document.querySelector("name").textContent = "Hello ";
+        let username = document.getElementById("name").value;
+
+        document.getElementById("result").textContent = "Hello " + username;
+      }
+    </script>
+  </body>
+</html>

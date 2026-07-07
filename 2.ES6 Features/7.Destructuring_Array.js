@@ -1,5 +1,6 @@
 /*  
-Destructuring is one of the most important ES6 features for Playwright, API testing, React, Node.js, and interviews.
+Destructuring is one of the most important ES6 features for Playwright,
+API testing, React, Node.js, and interviews.
 Destructuring means:
 Taking values from an Array or Object and storing them directly into variables.
 
@@ -48,16 +49,6 @@ console.log(first);
 console.log(remaining);
 
 // Program 4: Swap Two Numbers
-
-let a = 10;
-let b = 20;
-
-[a, b] = [b, a];
-
-console.log(a);
-console.log(b);
-
-// 
 // swap two numbers usin array destrucutring.
 let a = 10;
 let b = 35;
