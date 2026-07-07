@@ -1,31 +1,20 @@
 <!doctype html>
 <html>
-<body>
+  <body>
+    <p id="message">Learning DOM</p>
 
-<p id="message">
-Learning DOM
-</p>
+    <button onclick="hideText()">Hide</button>
 
-<button onclick="hideText()">Hide</button>
+    <button onclick="showText()">Show</button>
 
-<button onclick="showText()">Show</button>
+    <script>
+      function hideText() {
+        document.getElementById("message").style.display = "none";
+      }
 
-<script>
-
-function hideText(){
-
-    document.getElementById("message").style.display = "none";
-
-}
-
-function showText() {
-
-    document.getElementById("message")
-    .style.display = "block";
-
-}
-
-</script>
-
-</body>
+      function showText() {
+        document.getElementById("message").style.display = "block";
+      }
+    </script>
+  </body>
 </html>

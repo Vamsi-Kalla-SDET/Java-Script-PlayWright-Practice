@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <body>
+    <input id="task" />
+
+    <button onclick="addTask()">Add</button>
+
+    <ul id="tasks"></ul>
+
+    <script>
+      function addTask() {
+        let task = document.getElementById("task").value;
+
+        let li = document.createElement("li");
+
+        li.textContent = task;
+
+        document.getElementById("tasks").appendChild(li);
+      }
+    </script>
+  </body>
+</html>
